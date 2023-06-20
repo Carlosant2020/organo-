@@ -1,0 +1,30 @@
+.card {
+    background-color: #0063cc;
+    border-Color: #0063cc;
+    text-transform: none;
+    border-radius: 10px;  /* DEFINE COMO AS BORDAS ARREDONDADAS SAO */
+    font-weight: 700;
+    font-size: 16px;
+    padding: 6px 12px;   /*DEFINE A DISTANCIA ENTRE UM ELEMENTO E AS BORDAS*/
+    border: '1px solid';
+    line-height: 1.5;
+    cursor: pointer;
+    color: #FFF;
+    margin: 32px 0;
+}
+
+.card:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 'none';
+}
+
+.card:active{
+    box-shadow: none;
+    background-color: #0062cc;
+    border-color: #005cbf ;
+}
+
+.card:focus{
+    box-shadow: '0 0 0 0.2rem rgba(0,123,255,.5)';
+}

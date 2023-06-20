@@ -1,0 +1,15 @@
+.lista-suspensa label {
+    display: block;
+    margin-bottom: 8px;/*define a margin area na parte inferior de um elemento*/
+    font-size: 24px;  /*TAMANHO DA FONT*/
+}
+
+.lista-suspensa select {
+    background-color: #FFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px; /*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    box-sizing: border-box;
+}

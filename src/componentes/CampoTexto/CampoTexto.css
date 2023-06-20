@@ -1,0 +1,21 @@
+.campo-texto {
+    margin: 24px 0; /* DEFINE A AREA DA MARGEM NOS 4 LADOS DO ELEMENTO*/
+}
+
+.campo-texto label {
+    display: block; /*DEFINE SE UM ELEMTO E TRATADDO COMO UM BLOCO OU ELEMENTO INLINE*/
+    margin-bottom: 8px; /*DEFINE A MARGIN AREA NA PARTE INFERIOR DE UM ELEMENTO
+    Um valor positivo coloca o valor mais longe de outros elementos vizinhos,
+     enquanto um valor negativo, aproxima.*/
+    font-size: 24px;
+}
+
+.campo-texto input {
+    background-color: #FFF; /* define a cor de fundo de um elemento.*/
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06); /* utilizado para adicionar efeitos de sombra em volta de um elemento*/
+    width: 100%; /*determina a largura da área de conteúdo de um elemento*/
+    border: none;
+    font-size: 24px; /*TAMANHO DA FONTE*/
+    padding: 24px;  /*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    box-sizing: border-box;/* é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos*/
+}
